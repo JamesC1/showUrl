@@ -1,0 +1,13 @@
+
+$ mate-desktop-item-edit showUrl.desktop 
+
+# I had to edit it to actually point to the shell script.
+# I do not know yet, whether it will require continual editing.
+
+$ sudo desktop-file-install showUrl.desktop 
+
+# In your desktop's gui, select showUrl as the default web browser.
+#
+# In MATE, that's in <menu>/System/Preferences/Personal/Preferred Applications
+#
+
